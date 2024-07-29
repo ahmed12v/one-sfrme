@@ -1,0 +1,22 @@
+h1{
+    color: #1a252f;
+}
+.cur{
+    cursor: pointer;
+}
+
+
+.layer{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left :0%;
+    bottom: 0%;
+    opacity: 0;
+    background-color: #1abc9c;
+    color: aliceblue;
+    transition: .5s;
+}
+.items:hover .layer{
+    opacity: .9;
+}
